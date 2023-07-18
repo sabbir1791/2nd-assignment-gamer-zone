@@ -1,0 +1,65 @@
+/* shear style */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* shear font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.primary-logo>img {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.primary-title {
+    font-size: 45px;
+    font-weight: 700;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.amer{
+    color: #0B0223;
+}
+
+/* header style */
+header {
+    display: flex;
+    padding: 38px 240px;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px #0000000d;
+}
+
+.header-item>ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    gap: 32px;
+}
+
+.follow {
+    border-radius: 8px;
+    background: #0b02231a;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 24px;
+}
