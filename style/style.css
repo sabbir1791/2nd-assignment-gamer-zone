@@ -148,7 +148,7 @@ header {
     margin-top: 55px;
     margin-bottom: 55px;
     margin-right: 200px;
-    
+
 }
 
 .gammer-content {
@@ -360,4 +360,27 @@ header {
     color: #534C64;
     font-weight: 400;
     line-height: 30px;
+}
+/* faction-section selection */
+.faction-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+.card{
+    padding: 50px;
+    align-items: center;
+}
+
+.card-title {
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    color: #0B0223;
+    font-weight: 600;
 }
