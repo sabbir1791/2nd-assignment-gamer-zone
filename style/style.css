@@ -365,7 +365,7 @@ header {
 /* faction-section selection */
 .faction-section {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr,);
     grid-gap: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -374,10 +374,10 @@ header {
 
 }
 
-.card {
-    padding: 30px;
+/* .card {
+    padding-inline-start: 2%;
     align-items: center;
-}
+} */
 
 .card-title {
     position: relative;
@@ -385,6 +385,14 @@ header {
     left: 70px;
     color: #0B0223;
     font-weight: 600;
+}
+
+.faction-section>.card:hover{
+    background: #cbc3c3;
+    border-radius: 30px;
+    border: 2px solid #F948B2;
+    color: #F948B2;
+    
 }
 
 /* footer style */
@@ -434,6 +442,9 @@ footer {
     display: inline-flex;
     padding: 3px;
     gap: 20px;
+}
+.footer-icon-list>div i{
+    width: 50px;
 }
 
 .footer-service {
