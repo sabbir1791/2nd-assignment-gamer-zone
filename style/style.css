@@ -197,3 +197,63 @@ header {
     font-size: 24px;
     font-weight: 500;
 }
+
+/* online game section */
+.online-game {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.online-game-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+/* online game img section */
+.online-game-img-section {
+    display: grid;
+    grid-template-areas:
+        "rectangle-4                     rectangle-5                rectangle-7                  rectangle-6"
+        "rectangle-description-4         rectangle-description-5    rectangle-description-7 rectangle-description-6"
+    ;
+    margin: 50px;
+    max-width: 100%;
+    height: auto;
+    grid-gap: 18px;
+
+}
+
+.rectangle-7 {
+    position: relative;
+}
+
+.watch-now {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    inset: 50%;
+}
